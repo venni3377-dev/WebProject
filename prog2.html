@@ -1,0 +1,110 @@
+<html >
+<head>
+<title>PRT Software Solutions</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .container {
+    width: 350px;
+    margin: 100px auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 25px 35px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #000;
+  }
+
+  h1 {
+    color: rgb(0, 89, 255);
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .gender {
+    margin: 8px 0;
+    text-align: left;
+  }
+
+  .gender input {
+    margin-left: 10px;
+  }
+  .btn{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+  
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>PRT software solutions</h1>
+    <h2>Enter your details</h2>
+    <form>
+      <label>Enter your Firstname:</label>
+      <input type="text" placeholder="Enter your Firstname" required>
+
+      <label>Enter your Lastname:</label>
+      <input type="text" placeholder="Enter your Lastname" required>
+
+      <label>Enter your number:</label>
+      <input type="text" placeholder="Enter your number">
+
+      <div class="gender">
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> male
+        <input type="radio" name="gender" value="female"> female
+      </div>
+
+      <label>Qualification:</label>
+      <select>
+        <option value="">Select</option>
+        <option>BTECH</option>
+        <option>MTECH</option>
+        <option>BCA</option>
+        <option>MCA</option>
+        <option>BSC</option>
+      </select>
+
+      <br>
+      <a href= "https://www.apple.com/"class="btn">submit</a>    </form>
+  </div>
+</body>
+</html>
